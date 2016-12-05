@@ -5,9 +5,13 @@
 
 ### Tasks
 npm start
+
 npm test
+
 npm run watch
+
 npm run dev
+
 npm run lint
 
 ### Exemplos de chamadas na API
