@@ -1,0 +1,39 @@
+{
+  "name": "js-basico",
+  "version": "1.0.0",
+  "description": "API REST de criação de sing up/sign in.",
+  "main": "app",
+  "scripts": {
+    "start": "node .",
+    "test": "npm run lint && mocha 'test/**/*.test.js'",
+    "watch": "mocha -w 'test/**/*.test.js'",
+    "dev": "nodemon -w app app/index.js",
+    "lint": "eslint '{config,app,test}/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/joao_neto/cs-desafio-node.git"
+  },
+  "author": "João Pinto Neto",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/joao_neto/cs-desafio-node#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "eslint": "3.1.1",
+    "express": "4.14.0",
+    "jsonwebtoken": "7.1.6",
+    "mongoose": "4.5.7",
+    "uuid": "2.0.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "jsonwebtoken": "7.1.6",
+    "mocha": "2.5.3",
+    "nodemon": "1.10.0",
+    "sinon": "1.17.5",
+    "sinon-mongoose": "1.2.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
